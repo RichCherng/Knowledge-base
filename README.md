@@ -72,3 +72,7 @@ https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-
 	export VISUAL=vim
 	export EDITOR="$VISUAL"
 	```
+	
+### Git Cheat Sheet
+
+![Alt text]( git-cheat-sheet-large01.png "Optional Title")
