@@ -26,7 +26,7 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-optional: install build tools
+(optional): install build tools
 To compile and install native addons from npm you may also need to install build tools:
 
 ```bash
@@ -44,8 +44,28 @@ sudo apt-get install -y build-essential
 
 So if you have a .deb file:
 - You can install it using sudo dpkg -i /path/to/deb/file followed by sudo apt-get install -f.
+
 - You can install it using sudo apt install ./name.deb (or /path/to/package/name.deb). 
 With old apt-get versions you must first move your deb file to /var/cache/apt/archives/ directory. For both, after executing this command, it will automatically download its dependencies.
+
 - Install gdebi and open your .deb file using it (Right-click -> Open with). It will install your .deb package with all its dependencies.
 
 (Note: APT maintains the package index which is a database of available packages available in repo defined in /etc/apt/sources.list file and in the /etc/apt/sources.list.d directory. All these methods will fail to satisfy the software dependency if the dependencies required by the deb is not present in the package index.)
+
+
+### Replace default text editor
+
+https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits
+
+- For Git
+	- Only for git
+	```bash
+	git config --global core.editor "vim"
+	export GIT_EDITOR=vim
+	```
+	
+- For other program (default editor)
+	```bash
+	export VISUAL=vim
+	export EDITOR="$VISUAL"
+	```
