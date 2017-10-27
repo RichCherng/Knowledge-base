@@ -32,3 +32,20 @@ To compile and install native addons from npm you may also need to install build
 ```bash
 sudo apt-get install -y build-essential
 ```
+
+
+### Install Remarkable on Ubuntu
+
+- Download .deb file from : https://remarkableapp.github.io/linux/download.html
+- Install using "Install Debian Package"
+
+
+### Install Debian Package
+
+So if you have a .deb file:
+- You can install it using sudo dpkg -i /path/to/deb/file followed by sudo apt-get install -f.
+- You can install it using sudo apt install ./name.deb (or /path/to/package/name.deb). 
+With old apt-get versions you must first move your deb file to /var/cache/apt/archives/ directory. For both, after executing this command, it will automatically download its dependencies.
+- Install gdebi and open your .deb file using it (Right-click -> Open with). It will install your .deb package with all its dependencies.
+
+(Note: APT maintains the package index which is a database of available packages available in repo defined in /etc/apt/sources.list file and in the /etc/apt/sources.list.d directory. All these methods will fail to satisfy the software dependency if the dependencies required by the deb is not present in the package index.)
