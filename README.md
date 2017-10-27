@@ -76,3 +76,8 @@ https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-
 ### Git Cheat Sheet
 
 ![Alt text]( git-cheat-sheet-large01.png "Optional Title")
+- To ammend published commit (not recommend)
+	```bash
+	git commit --amend
+	git push origin <branch> --force
+	```
