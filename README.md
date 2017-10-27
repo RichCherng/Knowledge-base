@@ -36,7 +36,10 @@ sudo apt-get install -y build-essential
 
 ### Install Remarkable on Ubuntu
 
+https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt
+
 - Download .deb file from : https://remarkableapp.github.io/linux/download.html
+
 - Install using "Install Debian Package"
 
 
