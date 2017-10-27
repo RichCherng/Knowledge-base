@@ -81,3 +81,10 @@ https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-
 	git commit --amend
 	git push origin <branch> --force
 	```
+	
+### Change folder permissions and ownership
+
+```bash
+sudo chown -R username:group directory
+```
+`-R` will change all files and directories inside of directory and directory itself.
