@@ -111,3 +111,8 @@ source ~/.bashrc
 ```
 
 Some methods to make it permanant: https://askubuntu.com/questions/1414/how-to-create-a-permanent-alias
+
+
+### Compress JPEG or PNG Images in Linux
+https://www.tecmint.com/optimize-and-compress-jpeg-or-png-batch-images-linux-commandline/
+<insert doc>
