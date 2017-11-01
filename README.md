@@ -88,3 +88,6 @@ https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-
 sudo chown -R username:group directory
 ```
 `-R` will change all files and directories inside of directory and directory itself.
+
+### Git Bash alias
+https://stackoverflow.com/questions/13715179/my-git-bash-forgets-my-aliases-what-can-i-do
