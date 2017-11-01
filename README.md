@@ -94,3 +94,18 @@ https://stackoverflow.com/questions/13715179/my-git-bash-forgets-my-aliases-what
 
 ### Set up Alias
 http://www.hostingadvice.com/how-to/set-command-aliases-linuxubuntudebian/
+
+1. Open your .bashrc
+```bash
+vim ~/.bashrc
+```
+
+2. Add alias
+```bash
+alias aliasname='commands'
+```
+
+3. Install the .bashrc.
+```bash
+source ~/.bashrc
+```
