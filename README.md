@@ -91,3 +91,6 @@ sudo chown -R username:group directory
 
 ### Git Bash alias
 https://stackoverflow.com/questions/13715179/my-git-bash-forgets-my-aliases-what-can-i-do
+
+### Set up Alias
+http://www.hostingadvice.com/how-to/set-command-aliases-linuxubuntudebian/
