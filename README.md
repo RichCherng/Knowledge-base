@@ -109,3 +109,5 @@ alias aliasname='commands'
 ```bash
 source ~/.bashrc
 ```
+
+Some methods to make it permanant: https://askubuntu.com/questions/1414/how-to-create-a-permanent-alias
