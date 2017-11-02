@@ -120,7 +120,7 @@ https://www.tecmint.com/optimize-and-compress-jpeg-or-png-batch-images-linux-com
 
 ### FTP 
 
-# Login and sync remote directory on ftp server with local content (using lfpt)
+- Login and sync remote directory on ftp server with local content (using lfpt)
 ```bash
 lftp -u "$USER", "$PASSWORD" $HOST <<< EOF
 
