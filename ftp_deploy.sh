@@ -1,6 +1,6 @@
 #!/bin/sh
 # @author: Alexandre Plennevaus
-# @description: MIRROR DISTANT FOLDER TO LOCAL FOLDER VIA FTP
+# @description: SYNC FTP server with content
 #
 # FTP LOGIN
 
