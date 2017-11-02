@@ -116,3 +116,16 @@ Some methods to make it permanant: https://askubuntu.com/questions/1414/how-to-c
 ### Compress JPEG or PNG Images in Linux
 https://www.tecmint.com/optimize-and-compress-jpeg-or-png-batch-images-linux-commandline/
 <insert doc>
+
+
+### FTP 
+
+# Login and sync remote directory on ftp server with local content (using lfpt)
+```bash
+lftp -u "$USER", "$PASSWORD" $HOST <<< EOF
+
+mirror --reverse --delete --verboase $LOCAL_DIR $REMOTE_DIR
+
+bye
+EOF
+```
