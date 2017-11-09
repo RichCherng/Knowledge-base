@@ -129,3 +129,6 @@ mirror --reverse --delete --verboase $LOCAL_DIR $REMOTE_DIR
 bye
 EOF
 ```
+
+### Sharing Terminal Screen
+https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen
