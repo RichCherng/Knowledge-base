@@ -132,3 +132,5 @@ EOF
 
 ### Sharing Terminal Screen
 https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen
+
+http://www.hamvocke.com/blog/remote-pair-programming-with-tmux/
