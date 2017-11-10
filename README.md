@@ -136,3 +136,10 @@ https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen
 http://www.hamvocke.com/blog/remote-pair-programming-with-tmux/
 
 http://wiki.networksecuritytoolkit.org/index.php/HowTo_Share_A_Terminal_Session_Using_Screen
+
+### Use 'find' command to search for file in Linux
+
+```bash
+find <path> -name <file name (support wildcard)>
+find . -name "setup.py"
+```
