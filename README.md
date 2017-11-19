@@ -143,3 +143,6 @@ http://wiki.networksecuritytoolkit.org/index.php/HowTo_Share_A_Terminal_Session_
 find <path> -name <file name (support wildcard)>
 find . -name "setup.py"
 ```
+### Shebang for script
+Why is `/usr/bin/env bash` superior to `/bin/bash`
+https://stackoverflow.com/questions/21612980/why-is-usr-bin-env-bash-superior-to-bin-bash
