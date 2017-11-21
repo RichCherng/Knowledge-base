@@ -146,3 +146,8 @@ find . -name "setup.py"
 ### Shebang for script
 Why is `/usr/bin/env bash` superior to `/bin/bash`
 https://stackoverflow.com/questions/21612980/why-is-usr-bin-env-bash-superior-to-bin-bash
+
+### Run sudo command without password
+https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password/
+
+### Add group to sudo privilege
