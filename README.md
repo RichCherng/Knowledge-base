@@ -33,6 +33,14 @@ To compile and install native addons from npm you may also need to install build
 sudo apt-get install -y build-essential
 ```
 
+Update NodeJS on window
+https://stackoverflow.com/questions/18412129/how-do-i-update-node-js-and-npm-on-windows
+
+```bash
+npm install -g npm-windows-upgrade
+npm-windows-upgrade
+```
+
 
 ### Install Remarkable on Ubuntu
 
