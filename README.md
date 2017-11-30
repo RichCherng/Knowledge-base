@@ -162,3 +162,7 @@ https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password
 
 ### How To Use SSHFS to Mount Remote File Systems Over SSH
 https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh
+
+### How to grep for multiple patterns
+https://unix.stackexchange.com/questions/37313/how-do-i-grep-for-multiple-patterns
+
