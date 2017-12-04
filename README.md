@@ -90,6 +90,18 @@ https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-
 	git push origin <branch> --force
 	```
 	
+- To Squash All Commits : https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit
+	To squash four commits into one
+	```bash
+	git rebase -i HEAD~4
+	```
+	In the text editor that comes up, replace the words "pick" with "squash" next to the commits you want to squash into the commit before it. Save and close the editor, and git will combine the "squash"'ed commits with the one before it. 
+	
+	*Important*: If you've already pushed commits to GitHub, and then squash them locally, you will have to force the push to your branch.
+	```bash
+	git commit --amend
+	```
+	
 ### Change folder permissions and ownership
 
 ```bash
