@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Use this tool like this: ./sendToSVDU.sh file SVDU1A 
+
+/usr/bin/expect <<EOF
+
+spawn scp $1 $2:/tmp/
+
+expect "password:"
+send "password\r"
+expect "#"
+
+EOF
