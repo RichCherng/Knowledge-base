@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+sshpass -p $(< /net/users/t0174619/bash_script/pwd) ssh -o StrictHostKeyChecking
+
+#/usr/bin/expect << EOF
+#spawn ssh $1
+#expect "password:"
+#send $(< /net/users/t0174619/bash_script/pwd)
+#expect "#"
+#interact
+#EOF
+
+
+#   if  $(spawn ssh $1); then
+#       expect "password:"
+#       send $(< ~/Desktop/pwd)
+#       expect "#"
+#   else
+#       echo "failed"
+#   fi
