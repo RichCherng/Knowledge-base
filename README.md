@@ -178,3 +178,5 @@ https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remot
 ### How to grep for multiple patterns
 https://unix.stackexchange.com/questions/37313/how-do-i-grep-for-multiple-patterns
 
+### How to log all bash commands by all users on a server?
+https://askubuntu.com/questions/93566/how-to-log-all-bash-commands-by-all-users-on-a-server
