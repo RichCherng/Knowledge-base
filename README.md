@@ -180,3 +180,6 @@ https://unix.stackexchange.com/questions/37313/how-do-i-grep-for-multiple-patter
 
 ### How to log all bash commands by all users on a server?
 https://askubuntu.com/questions/93566/how-to-log-all-bash-commands-by-all-users-on-a-server
+
+### Untar a tar file or gzip-bz2 tar file
+http://how-to.wikia.com/wiki/How_to_untar_a_tar_file_or_gzip-bz2_tar_file
