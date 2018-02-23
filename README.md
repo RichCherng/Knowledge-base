@@ -186,3 +186,6 @@ http://how-to.wikia.com/wiki/How_to_untar_a_tar_file_or_gzip-bz2_tar_file
 
 ### Redirect Output
 https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file
+
+### Malformed request (Google mostly)
+https://productforums.google.com/forum/#!msg/youtube/f8koFe6QNK8/_-fcB8QGDQAJ
