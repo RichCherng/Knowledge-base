@@ -5,3 +5,21 @@
 - https://supportforums.cisco.com/t5/lan-switching-and-routing/1-1-static-nat-vs-port-forwardng/td-p/2689508
 
 ### SQUID (Caching)
+
+### Configure VLAN (Virtual Local Area Network)
+https://www.cyberciti.biz/tips/howto-configure-linux-virtual-local-area-network-vlan.html
+
+### Bridge Network Connection (Network Interface and VLAN)
+https://wiki.debian.org/BridgeNetworkConnections
+https://unix.stackexchange.com/questions/31763/bring-down-and-delete-bridge-interface-thats-up
+
+
+### Commands
+```
+ifconfig # Show network interface configuration
+tcpdump # dump network packet
+ip addr show # show network ip and state
+brctl # Bridge network interface
+vconfig # configure vlan
+```
+
