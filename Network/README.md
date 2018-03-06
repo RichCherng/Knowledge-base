@@ -15,7 +15,7 @@ https://unix.stackexchange.com/questions/31763/bring-down-and-delete-bridge-inte
 
 
 ### Commands
-```
+```bash
 ifconfig # Show network interface configuration
 tcpdump # dump network packet
 ip addr show # show network ip and state
