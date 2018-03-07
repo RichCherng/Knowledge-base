@@ -41,6 +41,32 @@ npm install -g npm-windows-upgrade
 npm-windows-upgrade
 ```
 
+### Determine the type of machine (fedora or ubuntu)
+```bash
+lsb_release -si
+lsb_release -sr
+lsb_release -a
+```
+
+### Mount net drive
+```bash
+sudo umount -ltnfs -a;
+sudo mount -tnfs -a
+sudo mount --all
+```
+
+### Kill all instances
+```bash
+kill -9 $(ps aux | grep <string> | grep -v grep | awk '{print $2}')
+kill $(pgrep -f <name of process>)
+```
+
+### iperf
+iperf test
+```bash
+Server: iperf -N -s -B <local interface's ip> [-R] # -R for reverse
+client: iperf -N -c <server's ip> -B <local interface's ip>
+```
 
 ### Install Remarkable on Ubuntu
 
@@ -63,6 +89,21 @@ With old apt-get versions you must first move your deb file to /var/cache/apt/ar
 
 (Note: APT maintains the package index which is a database of available packages available in repo defined in /etc/apt/sources.list file and in the /etc/apt/sources.list.d directory. All these methods will fail to satisfy the software dependency if the dependencies required by the deb is not present in the package index.)
 
+### Sed command
+
+```
+#replace enabled=0 with enabled=1
+sed -i.bak 's/enabled=0/enabled=1/g' /etc/yum.repos.d/fedora.repo
+```
+- remove white space 
+https://stackoverflow.com/questions/369758/how-to-trim-whitespace-from-a-bash-variable
+
+
+### nmap: Network exploration tool
+```bash
+nmap -sP 10.76.148.0/22
+nmap -sP 10.76.148.0/22 | grep us\.extension | awk '{print $5}' | awk -F. '{print $1}'
+```
 
 ### Bash variable assignment
 https://unix.stackexchange.com/questions/4899/var-vs-var-and-to-quote-or-not-to-quote
