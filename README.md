@@ -64,6 +64,12 @@ With old apt-get versions you must first move your deb file to /var/cache/apt/ar
 (Note: APT maintains the package index which is a database of available packages available in repo defined in /etc/apt/sources.list file and in the /etc/apt/sources.list.d directory. All these methods will fail to satisfy the software dependency if the dependencies required by the deb is not present in the package index.)
 
 
+### Bash variable assignment
+https://unix.stackexchange.com/questions/4899/var-vs-var-and-to-quote-or-not-to-quote
+
+### Bash Array
+https://www.thegeekstuff.com/2010/06/bash-array-tutorial/
+
 ### Replace default text editor
 
 https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits
