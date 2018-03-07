@@ -23,3 +23,29 @@ brctl # Bridge network interface
 vconfig # configure vlan
 ```
 
+### Host name resolve (DHCP)
+- /etc/resolv.conf
+### TCP DUMP
+on port with human readable
+```bash
+tcpdump -any port 3000 -X
+```
+capture package
+```bash
+sudo tcpdump -i eno1 port 8080 -X #web port
+```
+
+### netcat tool
+```bash
+nc -zv <hostname> 22 #ping port
+```
+
+
+### TPBIND service
+- Central user login server
+
+### Minicom
+```bash
+minicom -D /dev/ttyUSB#
+```
+
