@@ -236,3 +236,9 @@ https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file
 
 ### Malformed request (Google mostly)
 https://productforums.google.com/forum/#!msg/youtube/f8koFe6QNK8/_-fcB8QGDQAJ
+
+### Watch file
+```bash
+watch [-d] <file name> # -d for checking diff
+wathc -d "<command>"
+```
