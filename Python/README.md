@@ -94,3 +94,38 @@ class RunCmd(threading.Thread):
 
 RunCmd(["./someProg", "arg1"], 60).Run()
 ```
+### Python Yield, Generator, Iterable
+```python
+# iterable
+mylist = [x*x for x in range(3)] # or mylist = [0,1,4]
+for i in mylist:
+  print(i)
+0
+1
+4
+
+# Generator: can be call/iterate once
+# Only difference HERE is () instead of []
+mygenerator = (x*x for x in range(3))
+  print (i)
+0
+1
+4
+```
+Yield
+```Python
+>>> def createGenerator():
+...    mylist = range(3)
+...    for i in mylist:
+...        yield i*i
+...
+>>> mygenerator = createGenerator() # create a generator
+>>> print(mygenerator) # mygenerator is an object!
+<generator object createGenerator at 0xb7555c34>
+>>> for i in mygenerator:
+...     print(i)
+0
+1
+4
+```
+https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do?rq=1
