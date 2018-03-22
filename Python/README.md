@@ -129,3 +129,8 @@ Yield
 4
 ```
 https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do?rq=1
+
+
+### Why is 1000000000000000 in range 1000000000000001 so fast in python 3?
+- Discussion of sequencing, list, tuple, etc. in python
+https://stackoverflow.com/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3?rq=1
