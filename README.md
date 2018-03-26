@@ -55,6 +55,12 @@ sudo mount -tnfs -a
 sudo mount --all
 ```
 
+### Remount Readonly file system
+```bash
+mount -o remount, rw <file System>
+mount -o remount, rw /dev/sys
+```
+
 ### Kill all instances
 ```bash
 kill -9 $(ps aux | grep <string> | grep -v grep | awk '{print $2}')
