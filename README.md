@@ -248,3 +248,23 @@ https://productforums.google.com/forum/#!msg/youtube/f8koFe6QNK8/_-fcB8QGDQAJ
 watch [-d] <file name> # -d for checking diff
 wathc -d "<command>"
 ```
+
+### Bash Script: file content to variable
+```bash
+# PASSWORD=$(< /net/users/t0174619/bash_script/pwd)
+```
+
+### Bash Script: user input and password
+```bash
+printf "username: "
+read -r username
+
+HOST_CRED=$username
+
+
+printf "password: " # print on the same line
+read -s -r password # -s for silence echo the user input, -r for reading input on the same line and printf
+echo "" # Go to the next line after user press enter
+
+PASSWORD=$password
+```
