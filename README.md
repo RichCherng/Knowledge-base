@@ -282,3 +282,16 @@ find . -type d \( -path dir1 -o -path dir2 -o -path dir3 \) -prune -o -print
 ### Grep exclude directory
 https://stackoverflow.com/questions/6565471/how-can-i-exclude-directories-from-grep-r
 
+
+### NEED TO SORT THESE COMMAND W/ EXPLANATION
+```bash
+   28  df -h
+   29  cd /
+   30  du -h
+   31  du -ch
+   32  du -ck | sort -g
+   33  du --help
+   34  du -xck | sort -gr | less
+   
+   | grep  -v '^#' # exclude '#' only at the begining
+```
