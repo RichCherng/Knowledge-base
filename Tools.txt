@@ -1,0 +1,13 @@
+# Tools
+
+### Chrome Extension
+- Grammarly 
+- Goodle Dictionary
+- EditThisCookie
+- High Contrast
+- Momentum
+- Postman
+- Quick Javascript Switcher
+- The Great Suspender
+- Wappalyzer
+- Ad Block
