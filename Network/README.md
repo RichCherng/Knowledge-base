@@ -48,4 +48,6 @@ nc -zv <hostname> 22 #ping port
 ```bash
 minicom -D /dev/ttyUSB#
 ```
+### Not able to ssh to another computer, but can ping it?
+https://unix.stackexchange.com/questions/105800/not-able-to-ssh-to-another-computer-but-can-ping-it
 
