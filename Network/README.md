@@ -51,3 +51,13 @@ minicom -D /dev/ttyUSB#
 ### Not able to ssh to another computer, but can ping it?
 https://unix.stackexchange.com/questions/105800/not-able-to-ssh-to-another-computer-but-can-ping-it
 
+### Permanent Network Settings (Ifconfig)
+https://askubuntu.com/questions/833490/permanent-network-settings
+Add the following to the configuration file at /etc/network/interfaces or create a new file in /etc/network/interfaces.d/ called eth1
+```bash
+auto eth1
+    iface eth1 inet static
+        address 10.10.0.2
+        netmask 255.255.255.0
+        gateway 10.10.0.100
+```
