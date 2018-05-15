@@ -155,6 +155,15 @@ https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-
 	git commit --amend
 	```
 	
+### Git Disable GUI Crendential
+https://stackoverflow.com/questions/34396390/git-windows-disable-password-prompt-ui-but-get-password-prompt-from-shell
+https://stackoverflow.com/questions/34396390/git-windows-disable-password-prompt-ui-but-get-password-prompt-from-shell
+
+```bash
+$ git config --global credential.helper "" # Disabled username prompt
+$ git config --global core.askPass "" # Disabled Password prompt
+```
+	
 ### Change folder permissions and ownership
 
 ```bash
