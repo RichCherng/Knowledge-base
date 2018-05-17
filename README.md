@@ -163,7 +163,23 @@ https://stackoverflow.com/questions/34396390/git-windows-disable-password-prompt
 $ git config --global credential.helper "" # Disabled username prompt
 $ git config --global core.askPass "" # Disabled Password prompt
 ```
-	
+
+### Git Submodule 
+https://blog.github.com/2016-02-01-working-with-submodules/
+```bash
+# Add rock as submodule 
+git submodule add https://github.com/<user>/rock rock
+
+# Newer versions of Git will do this automatically, but older versions will require you to explicitly tell Git to download the content of rock
+
+git submodule update --init --recursive
+
+# Download content of the submodule
+git submodule update --init --recursive
+or
+git clone --recursive <project url> # for first time cloning the main project
+```
+
 ### Change folder permissions and ownership
 
 ```bash
