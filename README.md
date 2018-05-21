@@ -195,6 +195,14 @@ https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule
 3bis mv a/submodule_tmp a/submodule
 ```
 
+### Git Authentication
+https://stackoverflow.com/questions/30040643/clone-a-repo-with-submodules-override-credentials
+https://stackoverflow.com/questions/30180751/avoid-re-entering-password-for-each-submodule
+- Embedded Credential (Restrict Account for automation etc.)
+```
+ssh://username:password@theserver.com/folder/project.git
+```
+
 ### Change folder permissions and ownership
 
 ```bash
