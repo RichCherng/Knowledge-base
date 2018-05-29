@@ -190,6 +190,13 @@ https://stackoverflow.com/questions/34396390/git-windows-disable-password-prompt
 $ git config --global credential.helper "" # Disabled username prompt
 $ git config --global core.askPass "" # Disabled Password prompt
 ```
+### Adding SSL certificate for a (Not Secure) website
+https://unix.stackexchange.com/questions/109880/adding-ssl-certificate-for-github-only-not-all-certificates-from-ca-certificate
+```bash
+error: server certificate verification failed. 
+CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
+```
+
 
 ### Git Submodule 
 https://blog.github.com/2016-02-01-working-with-submodules/
