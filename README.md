@@ -377,3 +377,7 @@ https://stackoverflow.com/questions/6565471/how-can-i-exclude-directories-from-g
    
    | grep  -v '^#' # exclude '#' only at the begining
 ```
+
+
+### MySQL Workbench Installation GUIDE
+https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html
