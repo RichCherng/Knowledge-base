@@ -381,3 +381,9 @@ https://stackoverflow.com/questions/6565471/how-can-i-exclude-directories-from-g
 
 ### MySQL Workbench Installation GUIDE
 https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html
+
+
+
+### sudo apt-key adv --keyserver keyserver.ubuntu.com --recv command returns error
+keyserver.ubuntu.com host not found
+https://superuser.com/questions/620765/sudo-apt-key-adv-keyserver-keyserver-ubuntu-com-recv-7f0ceb10-command-return
