@@ -21,3 +21,7 @@ db.<Collection>.getIndexes()
 
 show collections
 ```
+
+
+# Execute mongo command through shell scripts
+https://stackoverflow.com/questions/4837673/how-to-execute-mongo-commands-through-shell-scripts
