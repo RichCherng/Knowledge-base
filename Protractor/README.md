@@ -13,3 +13,7 @@ Error: spawn /opt/jdk.../bin/java ENOENT
 Is present is too slow
 https://stackoverflow.com/questions/35344377/protractor-hanging-on-ispresent-or-any-other-action
 https://stackoverflow.com/questions/33019429/in-protractor-browser-iselementpresent-vs-element-ispresent-vs-element-iselemen
+
+### Cucumber Escaping string Quote
+https://makandracards.com/makandra/1021-escaping-of-quotation-marks-in-cucumber-steps-and-step-definitions
+https://stackoverflow.com/questions/19253880/cucumber-scenario-with-quotes-in-the-text
