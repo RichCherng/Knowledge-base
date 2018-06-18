@@ -387,3 +387,7 @@ https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html
 ### sudo apt-key adv --keyserver keyserver.ubuntu.com --recv command returns error
 keyserver.ubuntu.com host not found
 https://superuser.com/questions/620765/sudo-apt-key-adv-keyserver-keyserver-ubuntu-com-recv-7f0ceb10-command-return
+
+
+### Terminator (Terminal) Connect to remote host
+https://unix.stackexchange.com/questions/48699/new-terminator-window-on-remote-server
