@@ -61,3 +61,7 @@ auto eth1
         netmask 255.255.255.0
         gateway 10.10.0.100
 ```
+
+### Make resolveconf permanant 
+https://itsfoss.com/resolvconf-permanent-ubuntu/
+https://superuser.com/questions/677343/how-to-make-name-server-address-permanent-in-etc-resolv-conf
