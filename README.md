@@ -391,3 +391,10 @@ https://superuser.com/questions/620765/sudo-apt-key-adv-keyserver-keyserver-ubun
 
 ### Terminator (Terminal) Connect to remote host
 https://unix.stackexchange.com/questions/48699/new-terminator-window-on-remote-server
+
+
+### POST file to server 
+```
+curl -X POST -H 'Content-Type: application/json' -H 'TOKEN:kjhfakjdsfh' --data-binary @path/to/file.json http://API/CALL
+
+```
