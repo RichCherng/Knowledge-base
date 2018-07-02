@@ -29,7 +29,14 @@ async function getProcessedData(ur) {
 }
 ```
 
+### NODEJS Multi-part data
+https://stackoverflow.com/questions/13797670/nodejs-post-request-multipart-form-data
 
 ### NODEJS write after end
 https://stackoverflow.com/questions/31941715/nodejs-request-error-sending-multipart-form-data
 
+### Node.js "btoa is not defined" error
+https://stackoverflow.com/questions/23097928/node-js-btoa-is-not-defined-error
+
+### Basic Authentication Using Javascript
+https://stackoverflow.com/questions/34860814/basic-authentication-using-javascript
