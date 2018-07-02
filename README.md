@@ -155,6 +155,19 @@ https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-
 	git commit --amend
 	```
 	
+	
+### Howt to revert git commit
+https://gist.github.com/gunjanpatel/18f9e4d1eb609597c50c2118e416e6a6
+
+### Cleans and reinitialize git and submodule
+https://gist.github.com/nicktoumpelis/11214362
+```
+git clean -xfd
+git submodule foreach --recursive git clean -xfd
+git reset --hard
+git submodule foreach --recursive git reset --hard
+git submodule update --init --recursive
+```
 ### Github Fork
 https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository
 - update github forked repository
