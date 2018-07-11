@@ -411,3 +411,13 @@ https://unix.stackexchange.com/questions/48699/new-terminator-window-on-remote-s
 curl -X POST -H 'Content-Type: application/json' -H 'TOKEN:kjhfakjdsfh' --data-binary @path/to/file.json http://API/CALL
 
 ```
+
+
+### Share mouse and keyboard
+- X2x
+https://www.reddit.com/r/debian/comments/80liz4/synergy_alternative_shared_keyboad_mouse/
+https://linuxcommando.blogspot.com/2014/07/share-keyboard-and-mouse-on-two-x.html
+https://raspberrypi.stackexchange.com/questions/4253/forward-mouse-and-keyboard-input-to-x-session
+```
+ssh -X user@100.0.0.123	'x2x -west -to :0'
+```
