@@ -48,3 +48,18 @@ send().catch(err => { console.log(err) })
 ```
 
 https://stackoverflow.com/questions/28018855/upload-a-file-to-amazon-s3-with-nodejs
+
+
+
+### Delete File
+https://stackoverflow.com/questions/27753411/aws-s3-delete-object-using-javascript
+```javascript
+var AWS = require('aws-sdk');
+AWS.config.loadFromPath('./credentials-ehl.json');
+var s3 = new AWS.S3();
+var params = {  Bucket: 'your bucket', Key: 'your object' };
+s3.deleteObject(params, function(err, data) {
+  if (err) console.log(err, err.stack);  // error
+  else     console.log();                 // deleted
+});
+```
