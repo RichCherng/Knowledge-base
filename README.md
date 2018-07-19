@@ -429,3 +429,8 @@ https://askubuntu.com/questions/370044/additional-workspaces
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 3
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 3
 ```
+
+### Install .deb package
+```
+sudo apt install -f ./name.deb
+```
