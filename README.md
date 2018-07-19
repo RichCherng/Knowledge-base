@@ -421,3 +421,11 @@ https://raspberrypi.stackexchange.com/questions/4253/forward-mouse-and-keyboard-
 ```
 ssh -X user@100.0.0.123	'x2x -west -to :0'
 ```
+
+
+### Add more workspace
+https://askubuntu.com/questions/370044/additional-workspaces
+```
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 3
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 3
+```
