@@ -48,3 +48,16 @@ https://stackoverflow.com/questions/4837673/how-to-execute-mongo-commands-throug
 ```bash
 mongo --host 1.1.1.1 --eval 'db.collection.find()'
 ```
+
+## Install Mongo
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+## Uninstall Mongo
+https://stackoverflow.com/questions/29554521/uninstall-mongodb-from-ubuntu
+```
+sudo service mongod stop
+sudo apt-get purge mongodb-org*
+sudo rm -r /var/log/mongodb
+sudo rm -r /var/lib/mongodb
+
+```
