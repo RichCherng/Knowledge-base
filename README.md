@@ -2,6 +2,13 @@
 
  This note is for explaining linux command, guide to do something, or debugging guide
 
+
+### Future Goal ###
+- [ ] Create website that host from Githbu for easily assessible knowledge 
+	- Angular6? TypeScript
+	- ReactJS?
+	- Vue?
+	- No framework? JQuery?
 ### Terminal shortcut delay bug
  - https://askubuntu.com/questions/911946/terminal-appears-with-much-delay-when-shortcut-is-used/912250
 ##### Solution
