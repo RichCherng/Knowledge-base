@@ -65,3 +65,9 @@ auto eth1
 ### Make resolveconf permanant 
 https://itsfoss.com/resolvconf-permanent-ubuntu/
 https://superuser.com/questions/677343/how-to-make-name-server-address-permanent-in-etc-resolv-conf
+
+
+## Under Research ##
+- [ ] Conenct to mutliple wifi
+- [ ] Connect to wifi with active portal from linux
+- [ ] Script to Scan and then Connect wifi (Will be useful for using mutliple wifi)
