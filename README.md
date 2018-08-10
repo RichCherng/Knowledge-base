@@ -5,6 +5,9 @@
 
 ### Future Goal ###
 - [ ] Create website that host from Githbu for easily assessible knowledge 
+	- JAM Stack
+		- [ ] https://scotch.io/bar-talk/the-next-scotch-v8-how-were-getting-to-1s-load-times
+		- [ ] https://jamstack.org/
 	- Angular6? TypeScript
 	- ReactJS?
 	- Vue?
