@@ -11,3 +11,7 @@
 
 ## REST vs. GraphQL (Gatsby.js)
 https://medium.com/codingthesmartway-com-blog/rest-vs-graphql-418eac2e3083
+
+
+## Gatsby.js Impression
+https://medium.com/front-end-hacking/first-impressions-gatsby-js-e7f9b3130fac
