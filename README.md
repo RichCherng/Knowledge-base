@@ -166,6 +166,13 @@ https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-
 	```
 	
 	
+### Remove files/folders from git without deleting
+(Useful when updating gitignore)
+```
+git rm --cached <file>
+
+git rm --cached -r <folder>
+```
 ### Howt to revert git commit
 https://gist.github.com/gunjanpatel/18f9e4d1eb609597c50c2118e416e6a6
 
