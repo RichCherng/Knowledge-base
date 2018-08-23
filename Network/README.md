@@ -66,8 +66,14 @@ auto eth1
 https://itsfoss.com/resolvconf-permanent-ubuntu/
 https://superuser.com/questions/677343/how-to-make-name-server-address-permanent-in-etc-resolv-conf
 
+### Linux connect to wifi with active portal
+https://askubuntu.com/questions/826998/cannot-log-in-to-public-open-wifi-connection
+```
+sudo dpkg-reconfigure resolvconf
+
+```
 
 ## Under Research ##
 - [ ] Conenct to mutliple wifi
-- [ ] Connect to wifi with active portal from linux
+- [X] Connect to wifi with active portal from linux
 - [ ] Script to Scan and then Connect wifi (Will be useful for using mutliple wifi)
