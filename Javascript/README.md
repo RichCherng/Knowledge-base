@@ -29,6 +29,49 @@ async function getProcessedData(ur) {
 }
 ```
 
+### Deconstruction
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+Array Destructuring
+```
+# Basic variable assignment
+var foo = ['one', 'two', 'three'];
+
+var [one, two, three] = foo;
+console.log(one); // "one"
+console.log(two); // "two"
+console.log(three); // "three"
+
+
+# Assignment separate from declaration
+var a, b;
+
+[a, b] = [1, 2];
+console.log(a); // 1
+console.log(b); // 2
+
+
+etc...
+```
+
+
+Object destructuring
+```
+# Basic assignment
+var o = {p: 42, q:true}
+var {p,q} = o
+
+console.log(p); // 42
+console.log(q); // true
+
+# Assignment without declaration
+var a,b;
+
+({a, b} = {a: 1, b:2});
+# ({a, b} = {a: 1, b: 2}) is valid, as is var {a, b} = {a: 1, b: 2}
+```
+
+
 ### NODEJS Multi-part data
 https://stackoverflow.com/questions/13797670/nodejs-post-request-multipart-form-data
 
