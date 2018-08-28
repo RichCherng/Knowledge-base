@@ -2,6 +2,7 @@
 
 
 ### babel es
+(recommended) https://medium.com/@joeokpus/bringing-es7-es8-features-to-your-working-environment-a08243e3459d
 https://babeljs.io/docs/en/next/babel-preset-env.html
 
 ### Async/await declaration for ES8
