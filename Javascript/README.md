@@ -2,8 +2,9 @@
 
 
 ### babel es
-(recommended) https://medium.com/@joeokpus/bringing-es7-es8-features-to-your-working-environment-a08243e3459d
-https://babeljs.io/docs/en/next/babel-preset-env.html
+- (recommended) https://medium.com/@joeokpus/bringing-es7-es8-features-to-your-working-environment-a08243e3459d
+- https://babeljs.io/docs/en/next/babel-preset-env.html
+- https://stackoverflow.com/questions/33527653/babel-6-regeneratorruntime-is-not-defined
 
 ### Async/await declaration for ES8
 https://medium.com/@_bengarrison/javascript-es8-introducing-async-await-functions-7a471ec7de8a
