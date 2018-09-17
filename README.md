@@ -451,3 +451,17 @@ gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 3
 ```
 sudo apt install -f ./name.deb
 ```
+
+
+### File Explorer
+1. Midnight Commander
+https://slick.pl/kb/linux/installing-midnight-commander-4-8-11-ubuntu-14-04-13-10-13-04-12-04/
+```
+sudo apt-get remove mc
+sudo add-apt-repository ppa:eugenesan/ppa
+sudo apt-get update
+sudo apt-get install mc
+
+```
+2. Double Commander
+3. Krusader
