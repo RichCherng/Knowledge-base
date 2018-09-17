@@ -452,6 +452,14 @@ gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 3
 sudo apt install -f ./name.deb
 ```
 
+### Install .xz file
+https://askubuntu.com/questions/25961/how-do-i-install-a-tar-gz-or-tar-bz2-file
+```
+./configure
+make
+sudo make install
+```
+
 
 ### File Explorer
 1. Midnight Commander
