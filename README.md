@@ -355,6 +355,9 @@ https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file
 ### Malformed request (Google mostly)
 https://productforums.google.com/forum/#!msg/youtube/f8koFe6QNK8/_-fcB8QGDQAJ
 
+### Explain PaaS (Platform as a service, etc.)
+https://www.quora.com/Is-Amazon-EC2-IaaS-or-PaaS
+
 ### Watch file
 ```bash
 watch [-d] <file name> # -d for checking diff
