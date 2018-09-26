@@ -463,6 +463,8 @@ make
 sudo make install
 ```
 
+## Restart lightdm can cause `unable to open display ":0" problem
+- fix by restart again or look into xhost + 
 
 ### File Explorer
 1. Midnight Commander
