@@ -442,6 +442,13 @@ https://raspberrypi.stackexchange.com/questions/4253/forward-mouse-and-keyboard-
 ssh -X user@100.0.0.123	'x2x -west -to :0'
 ```
 
+### Locate memory Usage of directory
+```
+du -sh .
+du -sh Desktop
+du -sh *
+```
+
 
 ### Add more workspace
 https://askubuntu.com/questions/370044/additional-workspaces
