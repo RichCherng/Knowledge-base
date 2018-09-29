@@ -470,6 +470,10 @@ make
 sudo make install
 ```
 
+### Windows 10 Waking up from Network/external device
+https://windowsreport.com/windows-8-windows-10-wakes-sleep-fix/
+
+
 ## Restart lightdm can cause `unable to open display ":0" problem
 - fix by restart again or look into xhost + 
 
