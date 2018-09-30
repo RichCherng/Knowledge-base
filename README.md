@@ -477,6 +477,9 @@ https://windowsreport.com/windows-8-windows-10-wakes-sleep-fix/
 ## Restart lightdm can cause `unable to open display ":0" problem
 - fix by restart again or look into xhost + 
 
+## Synergy
+https://pkgs.org/download/synergy
+
 ### File Explorer
 1. Midnight Commander
 https://slick.pl/kb/linux/installing-midnight-commander-4-8-11-ubuntu-14-04-13-10-13-04-12-04/
