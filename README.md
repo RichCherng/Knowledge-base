@@ -426,6 +426,16 @@ https://superuser.com/questions/620765/sudo-apt-key-adv-keyserver-keyserver-ubun
 https://unix.stackexchange.com/questions/48699/new-terminator-window-on-remote-server
 
 
+### Terminator change hostname color
+https://stackoverflow.com/questions/40077907/is-it-possible-to-customize-terminators-prompt-hostname-userdomain-colors
+- Open ~/.bashrc and uncomment
+	`#force_color_prompt=yes`
+	by removing the hash:
+	`force_color_prompt=yes`
+	- The colors should appear then.
+	- *Note*: don't forget to source ~/.bashrc or restart your terminal.
+```
+
 ### POST file to server 
 ```
 curl -X POST -H 'Content-Type: application/json' -H 'TOKEN:kjhfakjdsfh' --data-binary @path/to/file.json http://API/CALL
