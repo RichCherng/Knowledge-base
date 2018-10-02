@@ -434,7 +434,6 @@ https://stackoverflow.com/questions/40077907/is-it-possible-to-customize-termina
 	`force_color_prompt=yes`
 	- The colors should appear then.
 	- *Note*: don't forget to source ~/.bashrc or restart your terminal.
-```
 
 ### POST file to server 
 ```
