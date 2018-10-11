@@ -489,6 +489,22 @@ https://windowsreport.com/windows-8-windows-10-wakes-sleep-fix/
 ## Synergy
 https://pkgs.org/download/synergy
 
+Start synergy process via command line
+https://github.com/symless/synergy-core/wiki/Command-Line
+```
+# Client
+/synergyc [server IP]
+
+# Server (Must start first), config can be generated and save via using GUI synergy
+./synergys -c [path to config file]
+```
+
+Invisible Cursor (Linux)
+https://symless.com/forums/topic/3553-ubuntu-invisible-cursor/
+```
+gsettings set org.gnome.settings-daemon.plugins.cursor active false
+```
+
 ### File Explorer
 1. Midnight Commander
 https://slick.pl/kb/linux/installing-midnight-commander-4-8-11-ubuntu-14-04-13-10-13-04-12-04/
