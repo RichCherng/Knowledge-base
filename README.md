@@ -244,6 +244,14 @@ or
 git clone --recursive <project url> # for first time cloning the main project
 ```
 
+### Git submodule to track branch (Always the latest of the branch)
+https://www.activestate.com/blog/2014/05/getting-git-submodule-track-branch
+```
+git sumodule add -b master https://github.com/<repo>.git
+# Using -b argument means we want to follow the master branch of the trackchanges repository
+git submodule update --init
+```
+
 ### Remove Git Submodule
 https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule
 ```
