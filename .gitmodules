@@ -1,3 +1,4 @@
-[submodule "React/React-Knowledge-base"]
-	path = React/React-Knowledge-base
+[submodule "React-Knowledge-base"]
+	path = React-Knowledge-base
 	url = https://github.com/RichCherng/React-Knowledge-base.git
+	branch = master
