@@ -57,5 +57,7 @@ docker pull rich/nginx-website
 
 https://blog.pusher.com/docker-for-development-getting-started
 
+https://blog.codeship.com/using-docker-compose-for-python-development/
+
 Docker Hub
 hub.docker.com
