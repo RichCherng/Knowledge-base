@@ -486,6 +486,17 @@ https://askubuntu.com/questions/25961/how-do-i-install-a-tar-gz-or-tar-bz2-file
 make
 sudo make install
 ```
+### Show who is logged on and what they are doing
+```
+
+If you need information of 20 last logged-in users you can use:
+
+last -20 -w
+to display full hosts, or
+
+last -20 -i
+to display IP numbers
+```
 
 ### Windows 10 Waking up from Network/external device
 https://windowsreport.com/windows-8-windows-10-wakes-sleep-fix/
