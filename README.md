@@ -524,6 +524,36 @@ https://symless.com/forums/topic/3553-ubuntu-invisible-cursor/
 gsettings set org.gnome.settings-daemon.plugins.cursor active false
 ```
 
+### Parse json into format (Command Line)
+```
+
+python -m json.tool f.json 
+
+# Output to file
+python -m json.tool f.json > files.json
+
+```
+
+### Inline scripting (e.g. Python script in bash script)
+https://stackoverflow.com/questions/2500436/how-does-cat-eof-work-in-bash
+```
+python << EOF
+
+import json
+
+with open('response') as f:
+    data = json.load(f)
+
+# print json.dumps(data, sort_keys=True, indent=2)
+
+print data["access_token"]
+EOF
+
+rm response
+
+```
+
+
 ### File Explorer
 1. Midnight Commander
 https://slick.pl/kb/linux/installing-midnight-commander-4-8-11-ubuntu-14-04-13-10-13-04-12-04/
