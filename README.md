@@ -486,6 +486,17 @@ https://askubuntu.com/questions/25961/how-do-i-install-a-tar-gz-or-tar-bz2-file
 make
 sudo make install
 ```
+### Show who is logged on and what they are doing
+```
+
+If you need information of 20 last logged-in users you can use:
+
+last -20 -w
+to display full hosts, or
+
+last -20 -i
+to display IP numbers
+```
 
 ### Windows 10 Waking up from Network/external device
 https://windowsreport.com/windows-8-windows-10-wakes-sleep-fix/
@@ -512,6 +523,36 @@ https://symless.com/forums/topic/3553-ubuntu-invisible-cursor/
 ```
 gsettings set org.gnome.settings-daemon.plugins.cursor active false
 ```
+
+### Parse json into format (Command Line)
+```
+
+python -m json.tool f.json 
+
+# Output to file
+python -m json.tool f.json > files.json
+
+```
+
+### Inline scripting (e.g. Python script in bash script)
+https://stackoverflow.com/questions/2500436/how-does-cat-eof-work-in-bash
+```
+python << EOF
+
+import json
+
+with open('response') as f:
+    data = json.load(f)
+
+# print json.dumps(data, sort_keys=True, indent=2)
+
+print data["access_token"]
+EOF
+
+rm response
+
+```
+
 
 ### File Explorer
 1. Midnight Commander
