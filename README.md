@@ -552,7 +552,63 @@ EOF
 rm response
 
 ```
+### Execute command in script (injecting command?)
+```
+curl -X post localhost:/api/v1/someting -H "authorization : Bearer $(./somescript)
+```
 
+### writing/exceuting inline command as string into file
+```
+TOKEN=$(./getToken.sh)
+
+echo $TOKEN
+echo "" > cmd
+
+echo "`cat <<EOF
+
+curl -X POST http://localhost:9024/api/v1/packages -H \"authorization: Bearer ${TOKEN}\" -H 'content-type: application/json' -d '{
+  "packageCarrier": "THL",
+  "packageId": "TEST",
+  "packageType": "TXT",
+  "packageTitle": "Nov content",
+  "packageFiles": 
+    $(python -m json.tool f.json) 
+  
+}'
+
+EOF`" >> cmd
+```
+
+
+### Echo json into file
+```
+echo ", \"0320171110144608700${i}.mpg\":{ 
+         \"fileName\":\"0320171110144608700${i}.mpg\", 
+         \"fileSize\":\"1.409936832E9\", 
+         \"fileType\":\"VIDEO\", 
+         \"fileMD5\":\"437fc3d5d3b062ec92179de7a3a9ccfe\" 
+        }
+      " >> f.json
+```
+
+### Generating file with specific size
+```
+# bs = byte size
+# count = how many of bs
+
+dd if=/dev/zero of=./files/0320171110144608700${i}.mpg bs=$SIZE count=1
+```
+
+### Run sequences of command in background
+```
+for ((i=0;i<=2;i++)); 
+do 
+    # dd if=/dev/zero of=./files/0320171110144608700${i}.mpg bs=$SIZE count=1
+    # cp sample.mpg ./files/0320171110144608700${i}.mpg &
+    ( cp sample.mpg ./files/0320171110144608700${i}.mpg && sudo mv ./files/0320171110144608700${i}.mpg /home/Doe/Content/)&
+
+done
+```
 
 ### File Explorer
 1. Midnight Commander
