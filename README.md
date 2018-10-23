@@ -599,7 +599,7 @@ echo ", \"0320171110144608700${i}.mpg\":{
 dd if=/dev/zero of=./files/0320171110144608700${i}.mpg bs=$SIZE count=1
 ```
 
-### Run sequences of command in background
+### Run sequence of commands in background
 ```
 for ((i=0;i<=2;i++)); 
 do 
