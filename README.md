@@ -610,6 +610,21 @@ do
 done
 ```
 
+### Bash, wait for subprocess
+https://stackoverflow.com/questions/356100/how-to-wait-in-bash-for-several-subprocesses-to-finish-and-return-exit-code-0
+```
+# run processes and store pids in array
+for i in $n_procs; do
+    ./procs[${i}] &
+    pids[${i}]=$!
+done
+
+# wait for all pids
+for pid in ${pids[*]}; do
+    wait $pid
+done
+```
+
 ### File Explorer
 1. Midnight Commander
 https://slick.pl/kb/linux/installing-midnight-commander-4-8-11-ubuntu-14-04-13-10-13-04-12-04/
