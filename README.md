@@ -625,6 +625,16 @@ for pid in ${pids[*]}; do
 done
 ```
 
+### Read Line by Line In bash
+https://stackoverflow.com/questions/4642191/read-line-by-line-in-bash-script
+```cat test | \
+while read CMD; do
+    echo $CMD
+done
+
+```
+
+
 ### File Explorer
 1. Midnight Commander
 https://slick.pl/kb/linux/installing-midnight-commander-4-8-11-ubuntu-14-04-13-10-13-04-12-04/
