@@ -61,3 +61,8 @@ https://blog.codeship.com/using-docker-compose-for-python-development/
 
 Docker Hub
 hub.docker.com
+
+
+
+# Pass host user to Dockerfile when using docker-compose
+https://stackoverflow.com/questions/36551510/how-to-pass-host-user-to-dockerfile-when-using-docker-compose
