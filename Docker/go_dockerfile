@@ -1,0 +1,10 @@
+FROM golang
+
+RUN apt-get update && apt-get -y upgrade
+
+RUN apt-get install -y git
+
+WORKDIR /usr/workspace
+
+
+

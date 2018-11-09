@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  angular:
+    build: 
+      context: .
+      dockerfile: angular_dockerfile
+    ports: 
+      - "4200:4200"
+    volumes:
+      - /home:/usr/workspace
+    container_name: Angular_dev
+    stdin_open: true
+    tty: true
+
+  go:
+    build:
+      context: .
+      dockerfile: go_dockerfile
+    ports:
+      - "3300:3300"
+    volumes:
+      - /home:/usr/workspace
+    container_name: go_dev
+    stdin_open: true
+    tty: true
+
+    # So that the current user own the file and can edit from host
+    # user: $USER

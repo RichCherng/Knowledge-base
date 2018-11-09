@@ -1,0 +1,15 @@
+FROM node
+
+RUN apt-get update && apt-get -y upgrade
+
+RUN apt-get install -y git
+
+RUN mkdir /usr/workspace
+
+WORKDIR /usr/workspace
+
+# Angular
+
+RUN npm install -g @angular/cli
+
+
