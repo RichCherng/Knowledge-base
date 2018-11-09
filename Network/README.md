@@ -74,6 +74,9 @@ sudo dpkg-reconfigure resolvconf
 ```
 ## How to get a public wifi login page to appear (Captive Portal) Linux Wifi
 https://www.reddit.com/r/YouShouldKnow/comments/9fuiq7/ysk_how_to_get_a_public_wifi_login_page_to_appear/
+```
+routerlogin.net
+```
 
 ## Under Research ##
 - [ ] Conenct to mutliple wifi
