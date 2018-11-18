@@ -4,6 +4,9 @@ RUN apt-get update && apt-get -y upgrade
 
 RUN apt-get install -y git
 
+# golang dependency management
+RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+
 WORKDIR /usr/workspace
 
 

@@ -19,6 +19,7 @@ services:
       dockerfile: go_dockerfile
     ports:
       - "3300:3300"
+      - "1323:1323"
     volumes:
       - /home:/usr/workspace
     container_name: go_dev
