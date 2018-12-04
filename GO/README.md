@@ -90,3 +90,32 @@ Array
 https://stackoverflow.com/questions/41668053/cap-vs-len-of-slice-in-golang
 - cap : tells you the capcacity of the underlying array
 - len : tells you hwo many items are in the arrays.
+
+## Unmarshal vs decoder (Parsing JSON)
+https://stackoverflow.com/questions/21197239/decoding-json-in-golang-using-json-unmarshal-vs-json-newdecoder-decode
+- Use `json.Decoder` if your data is coming from an `io.Reader` stream, or you need to decode miltiple values from a stream of data
+- Use `json.Unmarshal` if you already have the JSOn data in memory.
+
+
+## Middleware usage
+3 ways of adding middleware
+```
+
+e: := echo.New()
+
+// 1. binding middleware on declaration
+g := e.Group("/admin", middleware.Logger(), middler....) // as many middlewares
+
+// 2. Use method
+
+g := e.Group("/admin")
+
+g.Use(middleware.Logger())
+
+
+// Add middleware directly to the method
+
+e.GET("/something", someFunc, middleware.Logger())
+```
+
+
