@@ -285,6 +285,19 @@ sudo chown -R username:group directory
 ### Git Bash alias
 https://stackoverflow.com/questions/13715179/my-git-bash-forgets-my-aliases-what-can-i-do
 
+### Revert Commit to Previous commit
+https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-commits-in-git
+```
+git reset HEAD~
+# Or
+git reset HEAD~4
+```
+
+## Merge with Log (No fast forward)
+```
+git merge <Branch> --no-ff
+```
+
 ### Set up Alias
 http://www.hostingadvice.com/how-to/set-command-aliases-linuxubuntudebian/
 
