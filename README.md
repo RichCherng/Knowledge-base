@@ -647,6 +647,9 @@ done
 
 ```
 
+### Parse Argument in base script
+https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
+
 
 ### File Explorer
 1. Midnight Commander
