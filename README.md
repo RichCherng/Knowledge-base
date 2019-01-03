@@ -647,6 +647,9 @@ done
 
 ```
 
+### Supply SSHFS script with credential (password)
+https://stackoverflow.com/questions/7118101/sshfs-not-using-password-in-expect-script
+
 ### Parse Argument in base script
 https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
 
