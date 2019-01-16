@@ -647,6 +647,13 @@ done
 
 ```
 
+
+### force-chrome-to-open-new-pages-in-new-window-not-tab-when-opened-from-a-progr
+https://superuser.com/questions/166479/force-chrome-to-open-new-pages-in-new-window-not-tab-when-opened-from-a-progr
+```BASH
+$ google-chrome "--user-data-dir=${HOME}/.google-chrome/session${DISPLAY}"
+
+```
 ### Supply SSHFS script with credential (password)
 https://stackoverflow.com/questions/7118101/sshfs-not-using-password-in-expect-script
 
