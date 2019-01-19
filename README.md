@@ -647,6 +647,10 @@ done
 
 ```
 
+### Show git branch with colours in Bash Promt
+https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt
+
+
 
 ### force-chrome-to-open-new-pages-in-new-window-not-tab-when-opened-from-a-progr
 https://superuser.com/questions/166479/force-chrome-to-open-new-pages-in-new-window-not-tab-when-opened-from-a-progr
