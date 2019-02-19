@@ -165,6 +165,17 @@ https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-
 	git commit --amend
 	```
 	
+### Git rebase 
+```
+
+# This will pu dev commit AHEAD of the branch commit
+git rebase dev origin/branch
+
+# Preserve Merge History
+# https://stackoverflow.com/questions/15915430/what-exactly-does-gits-rebase-preserve-merges-do-and-why
+git rebase orgin/branch --preserve-merges
+```
+
 	
 ### Remove files/folders from git without deleting
 (Useful when updating gitignore)
