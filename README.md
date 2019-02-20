@@ -174,6 +174,9 @@ git rebase dev origin/branch
 # Preserve Merge History
 # https://stackoverflow.com/questions/15915430/what-exactly-does-gits-rebase-preserve-merges-do-and-why
 git rebase orgin/branch --preserve-merges
+
+## Revert Rebase
+https://stackoverflow.com/questions/134882/undoing-a-git-rebase
 ```
 
 	
