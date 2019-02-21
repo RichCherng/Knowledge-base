@@ -179,6 +179,14 @@ git rebase orgin/branch --preserve-merges
 https://stackoverflow.com/questions/134882/undoing-a-git-rebase
 ```
 
+### Rebase & Branching
+https://stackoverflow.com/questions/31881885/how-to-rebase-a-branch-off-a-rebased-branch
+```
+git log --graph --decorate --all
+
+git rebase --onto [target] [rebasing stops] [rebasing head]
+
+```
 	
 ### Remove files/folders from git without deleting
 (Useful when updating gitignore)
