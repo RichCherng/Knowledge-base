@@ -62,6 +62,11 @@ https://blog.codeship.com/using-docker-compose-for-python-development/
 Docker Hub
 hub.docker.com
 
+## Remove Untagged Image
+http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html
+```Bash
+docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
+```
 
 
 # Pass host user to Dockerfile when using docker-compose
