@@ -669,6 +669,9 @@ done
 
 ```
 
+### Keep laptop alive when close lid
+https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid
+
 ### Show git branch with colours in Bash Promt
 https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt
 
