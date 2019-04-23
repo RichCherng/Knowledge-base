@@ -669,6 +669,10 @@ done
 
 ```
 
+### (WEB): Cache Control
+https://stackoverflow.com/questions/12908766/what-is-cache-control-private
+
+
 ### Keep laptop alive when close lid
 https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid
 
