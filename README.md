@@ -179,6 +179,14 @@ git rebase orgin/branch --preserve-merges
 https://stackoverflow.com/questions/134882/undoing-a-git-rebase
 ```
 
+### Git pull rebase
+https://stackoverflow.com/questions/21364636/git-pull-rebase-preserve-merges
+```
+git pull origin <branch> --rebase
+or
+git pull origin <branch> --rebase=preserve # Preserve Merge Request
+```
+
 ### Rebase & Branching
 https://stackoverflow.com/questions/31881885/how-to-rebase-a-branch-off-a-rebased-branch
 ```
