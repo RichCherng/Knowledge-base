@@ -366,9 +366,11 @@ bye
 EOF
 ```
 
-### Sharing Terminal Screen
-https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen
+### Sharing Terminal 
 
+
+https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen
+ - Multisession: https://unix.stackexchange.com/questions/163872/sharing-a-terminal-with-multiple-users-with-screen-or-otherwise
 http://www.hamvocke.com/blog/remote-pair-programming-with-tmux/
 
 http://wiki.networksecuritytoolkit.org/index.php/HowTo_Share_A_Terminal_Session_Using_Screen
