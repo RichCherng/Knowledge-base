@@ -689,7 +689,13 @@ https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i
 ### Show git branch with colours in Bash Promt
 https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt
 
+### Change Display Color to warmer color
+```
+redshift -O 5000
 
+#turn off
+redshift -x
+```
 
 ### force-chrome-to-open-new-pages-in-new-window-not-tab-when-opened-from-a-progr
 https://superuser.com/questions/166479/force-chrome-to-open-new-pages-in-new-window-not-tab-when-opened-from-a-progr
