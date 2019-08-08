@@ -710,6 +710,26 @@ https://stackoverflow.com/questions/7118101/sshfs-not-using-password-in-expect-s
 https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
 
 
+### Security and key
+
+```Bash
+# Generate .key and .crt from PKCS12 file? : https://serverfault.com/questions/413832/generate-key-and-crt-from-pkcs12-file
+openssl pkcs12 -in filename.pfx -nocerts -out filename.key
+
+openssl pkcs12 -in filename.pfx -clcerts -nokeys -out filename.crt 
+```
+
+### Using RSA Private Key to Generate Public Key
+https://stackoverflow.com/questions/5244129/use-rsa-private-key-to-generate-public-key
+
+
+### Covert .pem to .crt & .key
+https://stackoverflow.com/questions/13732826/convert-pem-to-crt-and-key
+
+### Converting a Java Keystore (.jks) into PEM Format(.pem)
+https://stackoverflow.com/questions/652916/converting-a-java-keystore-into-pem-format
+
+
 ### File Explorer
 1. Midnight Commander
 https://slick.pl/kb/linux/installing-midnight-commander-4-8-11-ubuntu-14-04-13-10-13-04-12-04/
