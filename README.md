@@ -729,6 +729,13 @@ https://stackoverflow.com/questions/13732826/convert-pem-to-crt-and-key
 ### Converting a Java Keystore (.jks) into PEM Format(.pem)
 https://stackoverflow.com/questions/652916/converting-a-java-keystore-into-pem-format
 
+# tls: failed to parse private key
+https://github.com/stellar/go/issues/64
+
+```Bash
+# By pass passphase
+openssl rsa -in client.key -out key.unencrypted.pem
+```
 
 ### File Explorer
 1. Midnight Commander
