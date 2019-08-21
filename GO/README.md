@@ -118,4 +118,15 @@ g.Use(middleware.Logger())
 e.GET("/something", someFunc, middleware.Logger())
 ```
 
+## Go module with private gitlab repos
+https://www.reddit.com/r/golang/comments/9els7j/go_module_with_private_gitlab_repos/e5px5lg/?context=8&depth=9
+
+```Bash
+The problem I get is that my projects are hosted on a private gitlab server, I used the classic git replacement technique to have *go get* use ssh instead of https but it doesn't seem to work.
+
+git config --global url."git@mygitlab.com:".insteadof="https://mygitlab.com/"
+
+
+```
+
 
