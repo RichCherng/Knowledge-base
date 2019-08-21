@@ -130,4 +130,7 @@ git config --global url."git@mygitlab.com:".insteadof="https://mygitlab.com/"
 
 ```
 
+## Go get cannot find local packages when using multiple modules in a repo
+https://stackoverflow.com/questions/52079662/go-get-cannot-find-local-packages-when-using-multiple-modules-in-a-repo
+
 
