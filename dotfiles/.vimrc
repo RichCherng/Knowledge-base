@@ -1,0 +1,22 @@
+set autoindent
+set smartindent
+set expandtab
+set shiftwidth=4
+set smarttab
+set tabstop=4
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+set complete-=i
+set linebreak
+syntax enable
+set wrap
+set laststatus=2
+set ruler
+" colorscheme evening
+set number
+set cursorline
+set mouse=v
+set history=1000
+set noswapfile
