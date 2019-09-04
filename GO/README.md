@@ -127,7 +127,17 @@ The problem I get is that my projects are hosted on a private gitlab server, I u
 
 git config --global url."git@mygitlab.com:".insteadof="https://mygitlab.com/"
 
+```
 
+## Git global config for private repo
+https://medium.com/@elliotchance/migrating-projects-from-dep-to-go-modules-cc6bde71610b
+1. Log into your Github account and goto Settings > Personal access tokens.
+2. Create a new token and make sure you check the permission to allow it access to private repositories.
+3. Then run:
+
+```Bash
+export GITHUB_TOKEN=xxx
+git config --global url."https://${GITHUB_TOKEN}:x-oauth-basic@github.com/kounta".insteadOf "https://github.com/kounta"
 ```
 
 ## Go get cannot find local packages when using multiple modules in a repo
