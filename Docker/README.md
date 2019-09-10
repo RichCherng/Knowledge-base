@@ -82,3 +82,11 @@ Add namespace to /etc/resolv.conf
 ```Bash
 nnameserver 8.8.8.8
 ```
+
+# Remove images after build
+https://forums.docker.com/t/how-to-remove-none-images-after-building/7050
+
+```
+docker rmi $(docker images -f “dangling=true” -q)
+```
+https://forums.docker.com/t/how-to-remove-none-images-after-building/7050
