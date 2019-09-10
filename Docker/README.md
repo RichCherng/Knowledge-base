@@ -75,3 +75,10 @@ https://stackoverflow.com/questions/36551510/how-to-pass-host-user-to-dockerfile
 ## How make openvpn work with docker
 https://stackoverflow.com/questions/45692255/how-make-openvpn-work-with-docker
 
+## Resolve host
+http://daniel-e.github.io/2017-11-07-fixing-docker-dns-problems-on-linux/
+
+Add namespace to /etc/resolv.conf
+```Bash
+nnameserver 8.8.8.8
+```
