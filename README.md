@@ -737,6 +737,10 @@ https://github.com/stellar/go/issues/64
 openssl rsa -in client.key -out key.unencrypted.pem
 ```
 
+## Powerlevel9k Installation
+https://medium.com/@christyjacob4/powerlevel9k-themes-f400759638c2
+
+
 ### File Explorer
 1. Midnight Commander
 https://slick.pl/kb/linux/installing-midnight-commander-4-8-11-ubuntu-14-04-13-10-13-04-12-04/
