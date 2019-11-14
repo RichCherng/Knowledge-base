@@ -729,6 +729,21 @@ https://stackoverflow.com/questions/13732826/convert-pem-to-crt-and-key
 ### Converting a Java Keystore (.jks) into PEM Format(.pem)
 https://stackoverflow.com/questions/652916/converting-a-java-keystore-into-pem-format
 
+
+### BASH: print out executing command in script
+https://stackoverflow.com/questions/36273665/what-does-set-x-do
+```Bash
+set -x
+```
+
+### Trap: Execute command on signal (e.g. exit signal)
+https://www.shellscript.sh/trap.html
+http://man7.org/linux/man-pages/man1/trap.1p.html
+```Bash
+PID=$(pgrep -f 'NL 5555:')
+trap 'kill $PID' 0 1 2 15
+```
+
 # tls: failed to parse private key
 https://github.com/stellar/go/issues/64
 
