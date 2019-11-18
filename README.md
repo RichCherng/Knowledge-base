@@ -736,6 +736,13 @@ https://stackoverflow.com/questions/36273665/what-does-set-x-do
 set -x
 ```
 
+## Zsh wildcard is not workign
+https://unix.stackexchange.com/questions/130958/scp-wildcard-not-working-in-zsh
+
+```Bash
+setopt nonomatch
+```
+
 ### Trap: Execute command on signal (e.g. exit signal)
 https://www.shellscript.sh/trap.html
 http://man7.org/linux/man-pages/man1/trap.1p.html
