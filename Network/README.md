@@ -78,6 +78,16 @@ https://www.reddit.com/r/YouShouldKnow/comments/9fuiq7/ysk_how_to_get_a_public_w
 routerlogin.net
 ```
 
+## Setting up DHCP Server and Client (Linux & MacOS)
+
+dhcp server for Linux
+https://www.tecmint.com/install-dhcp-server-in-ubuntu-debian/
+
+dhcp client for Linux and MacOS
+https://serverfault.com/questions/447686/mac-osx-server-command-equivalent-for-dhclient
+https://askubuntu.com/questions/124454/is-it-possible-to-use-ifconfig-to-switch-an-interface-to-dhcp-and-if-not-what-i
+https://support.apple.com/guide/mac-help/use-dhcp-or-a-manual-ip-address-on-mac-mchlp2718/mac
+
 ## Under Research ##
 - [ ] Conenct to mutliple wifi
 - [X] Connect to wifi with active portal from linux
