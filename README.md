@@ -579,6 +579,26 @@ python -m json.tool f.json > files.json
 
 ```
 
+## Configure your Git username/email
+You typically configure your global username and email address after installing Git. However, you can do so now if you missed that step or want to make changes. After you set your global configuration, repository-specific configuration is optional.
+
+Git configuration works the same across Windows, macOS, and Linux.
+
+To set your global username/email configuration:
+Open the command line.
+Set your username:
+`git config --global user.name "FIRST_NAME LAST_NAME"`
+Set your email address:
+`git config --global user.email "MY_NAME@example.com"`
+To set repository-specific username/email configuration:
+From the command line, change into the repository directory.
+Set your username:
+`git config user.name "FIRST_NAME LAST_NAME"`
+Set your email address:
+`git config user.email "MY_NAME@example.com"`
+Verify your configuration by displaying your configuration file:
+`cat .git/config`
+
 ### Inline scripting (e.g. Python script in bash script)
 https://stackoverflow.com/questions/2500436/how-does-cat-eof-work-in-bash
 ```
