@@ -214,6 +214,9 @@ git submodule foreach --recursive git clean -xfd
 git reset --hard
 git submodule foreach --recursive git reset --hard
 git submodule update --init --recursive
+
+# Update all submodule to master branch
+git submodule foreach git pull origin master
 ```
 ### Github Fork
 https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository
