@@ -1,0 +1,276 @@
+<button class="impressionLabel left active">
+  <span>Something</span>
+</button>
+<!-- <button 
+  type="button" 
+  [disabled]="disabled" 
+  class="btn-component-{{color}} btn-component" 
+  [ngClass]="[direction? 'btn-direction': '', direction? 'btn-direction-' + color :'', direction? direction: '']" >
+  <ng-content></ng-content>
+</button> -->
+
+<!-- <button type="button" [disabled]="disabled" class="btn-component-{{color}} btn-component">
+  <ng-content></ng-content>
+</button> -->
+
+<button type="button" class="btn-component btn-component-{{color}} direction right">
+  <ng-content></ng-content>
+</button>
+
+
+
+
+
+//**************************************************************************************//
+@import "~src/styles-variables.scss";
+
+.btn-component {
+  width: 100%;
+  border-radius: 5px;
+  padding: 6px 15px;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  &-red {
+    background-color: $red;
+  }
+  &-blue {
+    background-color: $greyblue;
+  }
+  &-green {
+    background-color: $light-olive-green;
+  }
+  &-orange {
+    background-color: $pale-orange;
+  }
+  &-black {
+    background-color: $black;
+  }
+  &[disabled] {
+    background-color: #b2b2b2 !important;
+    color: rgba(0, 0, 0, 0.26);
+  }
+}
+
+
+$border-px: 12px;
+
+.btn-direction {
+  display: block;
+  position: relative;
+  
+  &.next{
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+  }
+  &-red.next::after {
+    &[next] {
+      border-top: $border-px solid $red;
+      border-right: $border-px solid $red;
+    }
+  }
+  &-blue.next::after {
+      &[next] {
+        border-top: $border-px solid $greyblue;
+        border-right: $border-px solid $greyblue;
+      }
+  }
+  &-green.next::after {
+    &[next] {
+      border-top: $border-px solid $light-olive-green;
+      border-right: $border-px solid $light-olive-green;
+    }
+  }
+  &-orange.next::after {
+    &[next] {
+      border-top: $border-px solid $pale-orange;
+      border-right: $border-px solid $pale-orange;
+    }
+  }
+  &-black.next::after {
+    border-top: $border-px solid $black;
+    border-right: $border-px solid $black;
+  }
+}
+
+
+// https://line25.com/tutorials/how-to-create-flat-style-breadcrumb-links-with-css
+.btn-direction::after {
+
+  content: "";
+  border-bottom: $border-px solid transparent;
+  border-left: $border-px solid transparent;
+  border-radius: 0px 5px 0px 0px;
+  position: absolute;
+  right: -12px;
+  transform: rotate(45deg);
+  top: 4px;
+  z-index: -1;
+}
+
+
+// border-top: 40px solid transparent;
+// border-bottom: 40px solid transparent;
+// border-left: 40px solid #3498db;
+
+
+
+// Mimicking Impression Label
+
+.impressionLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: $brown-grey;
+}
+
+
+.impressionLabel {
+  position: absolute;
+  height: 50px;
+  width: calc(100% - 40px);
+  max-width: 120px;
+  transition: top 1s;
+  padding: 0 10px;
+  top: -25px;
+
+
+  &:before,
+  &:after {
+    content: "";
+    display: inline-block;
+    border-width: 25px;
+    border-style: solid;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+  }
+
+  &:before {
+    border-width: 24px;
+    top: 0;
+    z-index: 2;
+  }
+
+  &:after {
+    top: -1px;
+    z-index: 1;
+  }
+
+  &.left {
+    right: 40px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid;
+    border-right: none;
+    align-items: flex-end;
+
+    &:before,
+    &:after {
+      left: 100%;
+    }
+
+    &.active:before,
+    &.active:after {
+      border-color: transparent transparent transparent $greyblue;
+    }
+
+    &.active.error:before,
+    &.active.error:after {
+      border-color: transparent transparent transparent $coral-pink;
+    }
+
+    &.inactive:before {
+      border-color: transparent transparent transparent $light-grey;
+    }
+
+    &.inactive:after {
+      border-color: transparent transparent transparent $brown-grey;
+    }
+  }
+
+  &.right {
+    left: 40px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid;
+    border-left: none;
+    align-items: flex-start;
+
+    &:before,
+    &:after {
+      right: 100%;
+    }
+
+    &.active:before,
+    &.active:after {
+      border-color: transparent $greyblue transparent transparent;
+    }
+
+    &.active.error:before,
+    &.active.error:after {
+      border-color: transparent $coral-pink transparent transparent;
+    }
+
+    &.inactive:before {
+      border-color: transparent $light-grey transparent transparent;
+    }
+
+    &.inactive:after {
+      border-color: transparent $brown-grey transparent transparent;
+    }
+  }
+
+  &.active {
+    color: white;
+    background-color: $greyblue;
+    border-color: $greyblue;
+
+    &.error {
+      background-color: $coral-pink;
+      border-color: $coral-pink;
+    }
+  }
+
+  &.inactive {
+    color: $brown-grey;
+    border-color: $brown-grey;
+    background-color: $light-grey;
+  }
+
+  &.top:before {
+    z-index: 4;
+  }
+
+  &.top:after {
+    z-index: 3;
+  }
+}
+
+.direction {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  &:before,
+  &:after{
+    content: ""
+  }
+  &.right {
+
+    border-radius: 0 4px 4px 0;
+    align-items: flex-start;
+
+    &:before,
+    &:after {
+      left: 100%;
+      border-width: 16px;
+      border-style: solid;
+      position: absolute;
+      border-color: red blue green yellow;
+    }
+  }
+}
