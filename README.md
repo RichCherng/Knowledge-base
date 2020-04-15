@@ -554,10 +554,19 @@ https://windowsreport.com/windows-8-windows-10-wakes-sleep-fix/
 - fix by restart again or look into xhost + 
 
 ## Synergy
+
+****UPDATE****
+Compile From Source (Use Virtual Machine to be safe) (Ubutun 18+ have dependencies problems, can't be installed from deb)
+(Compile): https://github.com/symless/synergy-core/wiki/Compiling
+
+**************
 https://pkgs.org/download/synergy
 
 Start synergy process via command line
 https://github.com/symless/synergy-core/wiki/Command-Line
+(Qt5LinguistTools dependencies problem): https://stackoverflow.com/questions/51698075/cmake-cannot-find-qt5linguisttools-in-docker-ubuntu-18-04
+
+
 ```
 # Client
 /synergyc [server IP]
