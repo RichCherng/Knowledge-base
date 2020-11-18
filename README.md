@@ -791,6 +791,16 @@ https://github.com/stellar/go/issues/64
 openssl rsa -in client.key -out key.unencrypted.pem
 ```
 
+
+## SSH Tunnel map port
+```Bash
+ssh -L <LOCAL PORT>:<IP || URL>:<REMOTE PORT> <USER>@<IP || URL>
+
+# Example
+ssh -L 8080:myurl:8081 rich@myurl
+
+```
+
 ## Powerlevel9k Installation
 https://medium.com/@christyjacob4/powerlevel9k-themes-f400759638c2
 
