@@ -801,6 +801,10 @@ ssh -L 8080:myurl:8081 rich@myurl
 
 ```
 
+## Bash SSH Hosts completion
+https://unix.stackexchange.com/questions/136351/autocomplete-server-names-for-ssh-and-scp
+
+
 ## Powerlevel9k Installation
 https://medium.com/@christyjacob4/powerlevel9k-themes-f400759638c2
 
