@@ -24,3 +24,6 @@ brew install wget
 
 # Install item2
 brew install --cask iterm2
+
+# Open iTerm2
+open /Applications/iTerm.app
