@@ -833,6 +833,14 @@ Host * !martell
 Host *
     User root
     Compression yes
+	
+	
+# Run remote command on loging
+Host vagrant
+    User vagrant
+    HostName 192.168.12.59
+    RequestTTY yes #https://unix.stackexchange.com/questions/91747/ssh-config-specify-command-to-be-executed-on-the-remote-machine-upon-login
+    RemoteCommand  sudo su
 ```
 
 ### SSH without password
