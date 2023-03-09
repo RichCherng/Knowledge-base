@@ -5,6 +5,8 @@ echo "$(curl -fsSL https://raw.githubusercontent.com/RichCherng/Knowledge-base/m
 source ~/.vimrc
 
 ### Install ohmyzsh
+
+# (For Linux) run : sudo apt install zsh 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ### Install powerlevel10k
