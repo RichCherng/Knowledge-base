@@ -190,7 +190,7 @@ git pull origin <branch> --rebase=preserve # Preserve Merge Request
 ### Rebase & Branching
 https://stackoverflow.com/questions/31881885/how-to-rebase-a-branch-off-a-rebased-branch
 ```
-git log --graph --decorate --all
+git log --graph --decorate --all --oneline
 
 git rebase --onto [target] [rebasing stops] [rebasing head]
 
