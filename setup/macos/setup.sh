@@ -29,3 +29,6 @@ brew install --cask iterm2
 
 # Open iTerm2
 open /Applications/iTerm.app
+
+# Install sshpass
+brew install hudochenkov/sshpass/sshpass
